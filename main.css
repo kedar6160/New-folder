@@ -72,22 +72,12 @@ button:focus-visible {
 
 /*common-end*/
 
-.center {
-  max-width: 1900px;
-  margin: 0 auto;
-}
-
 .error-class {
   font-size: 14px;
   font-weight: 500;
   padding-bottom: 4px;
 }
-.title_font {
-  text-align: left;
-  font-size: 24px;
-  color: #000;
-  font-weight: 600;
-}
+
 /* INDEX CSS START */
 .header-text {
   font-size: 3rem;
@@ -111,17 +101,12 @@ button:focus-visible {
   width: 68px;
   text-align: center;
 }
-.game-categories .owl-item .game-card-body a {
-  color: #012d65;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 23px;
-}
+
 .game-categories .game-card-body {
   background-color: #bcd4f1;
   border-radius: 10px;
   width: 100%;
-  gap: 20px;
+  gap: 02%;
   padding: 8% 5%;
   align-items: center;
 }
@@ -137,7 +122,7 @@ button:focus-visible {
 .about p,
 .about li {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .about .text-end {
@@ -360,10 +345,8 @@ button:focus-visible {
   color: #fff !important;
   background-color: rgba(188, 212, 241, 0.7) !important;
   width: 2.5%;
+  opacity: 1 !important;
   height: 48px;
-  backdrop-filter: blur(5px);
-  border: none;
-  outline: none;
 }
 
 .lottery-game-categories-parent .owl-nav button span,
@@ -405,7 +388,7 @@ button:focus-visible {
 .game-categories-parent .owl-dots span {
   width: 56px !important;
   height: 8px !important;
-  background-color: #ffffff !important;
+  background-color: #e9edf5 !important;
 }
 
 .lottery-game-categories-parent .owl-dots .active span,
@@ -439,45 +422,36 @@ section#main-content {
 
 /* register page css start   */
 .login,
-.withdraw,
 .register:hover {
-  background-color: #e9edf5;
-  color: #000;
-  border: none;
-  padding: 5px 25px;
-}
-
-.register,
-.deposit,
-.login:hover {
   background-color: #114de7;
   color: #fff;
   border: none;
-  padding: 5px 25px;
 }
 
+.register,
+.login:hover {
+  background-color: #fff;
+  color: #114de7;
+  border: none;
+}
 .register-page {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .register-page .regi-div {
   padding: 3%;
 }
-
 .register-page input,
 .register-page select,
 .register-page textarea {
   margin: 0px 0px 12px 0px;
   font-size: 14px;
 }
-
 .register-page label {
   font-weight: 500;
   font-size: 16px;
 }
-
 .register-page .referral-btn {
   background-color: #114de7;
   color: #fff;
@@ -486,7 +460,6 @@ section#main-content {
   margin: 10px 0px 0px 0px;
   font-size: 15px;
 }
-
 .register-page .referral-reg-form {
   display: flex;
   flex-direction: column;
@@ -537,21 +510,15 @@ section#main-content {
 .terms-container ul {
   margin-bottom: 10px;
 }
-
 .sidebar-mob {
   width: auto !important;
 }
-
 @media (max-width: 768px) {
-  .title_font {
-    font-size: 16px;
-  }
   .game-categories .game-card-body {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   .sidebar-mob {
     width: auto !important;
   }
@@ -561,33 +528,27 @@ section#main-content {
   .register-page {
     flex-direction: column;
   }
-
   .register-page {
     display: unset;
     justify-content: unset;
     align-items: unset;
   }
-
   .register-page .terms-condition-pop {
     position: static;
     width: 320px;
     min-height: max-content;
   }
-
   .register-page .referral-reg-form {
     min-width: 0px;
   }
-
   .register-page label {
     font-size: 12px;
   }
-
   .register-page input,
   .register-page select,
   .register-page textarea {
     font-size: 10px;
   }
-
   .register-page .referral-btn {
     padding: 5px 20px;
   }
@@ -675,6 +636,15 @@ section#main-content {
 .main-content .modal-body-main .result_section_container {
   background-color: #e9edf5;
   padding: 8px;
+  border-radius: 6px;
+}
+
+.main-content .modal-body-main .result_section_container_betting {
+  background-color: #e9edf5;
+  background-color: #e9edf5;
+  padding: 8px;
+  padding: 8px;
+  border-radius: 6px;
   border-radius: 6px;
 }
 
@@ -991,7 +961,6 @@ section#main-content {
   background-color: #e9edf5;
   border-radius: 4px;
 }
-
 .bettingpanel_game_select .analysis_main select {
   width: 20%;
   border: none;
@@ -1008,7 +977,6 @@ section#main-content {
   border-radius: 4px;
   border-spacing: 0 10px;
 }
-
 .bettingpanel_game_select .betting_main_table .analysis_table {
   padding: 20px;
 }
@@ -1021,11 +989,9 @@ section#main-content {
 .bettingpanel_game_select .market_select_mobile {
   margin: 20px 0px 20px 0px;
 }
-
 .bettingpanel_game_select .analysis_dropdown {
   margin: 15px 0px 0px 0px;
 }
-
 .bettingpanel_game_select
   .analysis_dropdown
   .analysis_dropdown_in
@@ -1034,12 +1000,10 @@ section#main-content {
   background: #fff;
   font-size: 16px;
 }
-
 .bettingpanel_game_select .market_select_mobile .market_mobile_in select {
   background-color: #bcd4f1;
   width: 100%;
 }
-
 .bettingpanel_game_select
   .market_select_mobile
   .market_mobile_in
@@ -1100,6 +1064,41 @@ section#main-content {
   text-align: center;
 }
 
+.result_section_container_betting {
+  background-color: #e9edf5;
+  padding: 8px 6px 5px 5px;
+  border-radius: 6px;
+}
+.result_section_container_betting .result_section_in h2 {
+  color: #000;
+  font-weight: 600;
+  font-size: 22px;
+}
+.result_section_container_betting .result_section_in p {
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+}
+.result_section_container_betting .result_section_in .result_betting_panel {
+  background-color: #fff;
+  padding: 8px 10px 10px 10px;
+  border-radius: 6px;
+  margin: 10px 0px 0px 0px;
+}
+.result_section_container_betting .result_section_in .result_betting_panel p {
+  font-size: 12px;
+  font-weight: 500;
+}
+.result_section_container_betting .result_section_in .result_betting_panel th {
+  font-size: 14px;
+  text-align: center;
+}
+.result_section_container_betting .result_section_in .result_betting_panel th,
+.result_section_container_betting .result_section_in .result_betting_panel td {
+  border-bottom: unset;
+  text-align: center;
+}
+
 .highlight {
   color: #114de7;
   font-size: 14px;
@@ -1123,6 +1122,24 @@ section#main-content {
   pointer-events: auto;
 }
 
+.overlay_betting {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.overlay_betting.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
 .bettingpanel .sidebar {
   position: fixed;
   right: -328px;
@@ -1135,6 +1152,12 @@ section#main-content {
 }
 
 .bettingpanel .sidebar.open {
+  height: auto;
+  border-radius: 4px 0px 0px 4px;
+  right: 0px;
+}
+
+.bettingpanel .sidebar_betting.opened {
   height: auto;
   border-radius: 4px 0px 0px 4px;
   right: 0px;
@@ -1173,10 +1196,93 @@ section#main-content {
   background: #bcd4f1;
 }
 
-.bettingpanel_game_select .betting_main_table .well {
-  font-size: 14px;
-  margin: 20px 0px;
-  font-weight: 600;
+.bettingpanel .sidebar_betting {
+  position: fixed;
+  position: fixed;
+  right: -328px;
+  right: -328px;
+  /* top: 15vh; */
+  /* top: 15vh; */
+  height: 100%;
+  height: 100%;
+  width: 328px;
+  width: 328px;
+  z-index: 99;
+  z-index: 99;
+  transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  top: 20px;
+  /* top: 20px; */
+}
+
+.bettingpanel .sidebar_betting.open {
+  height: auto;
+  height: auto;
+  border-radius: 4px 0px 0px 4px;
+  border-radius: 4px 0px 0px 4px;
+  right: 0px;
+  right: 0px;
+}
+
+.bettingpanel .sidebar_betting .open .rotate {
+  transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.bettingpanel .sidebar_betting .logo-details {
+  display: flex;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  top: 50%;
+}
+
+.bettingpanel .sidebar_betting .logo-details #btn_betting {
+  position: absolute;
+  position: absolute;
+  top: 100%;
+  top: 100%;
+  right: 0;
+  right: 0;
+  transform: translateY(-100%);
+  transform: translateY(-100%);
+  font-size: 20px;
+  font-size: 20px;
+  transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  text-align: center;
+  text-align: center;
+  cursor: pointer;
+  cursor: pointer;
+  background-color: #bcd4f1;
+  background-color: #bcd4f1;
+  color: #012d65;
+  color: #012d65;
+  border: none;
+  border: none;
+  border-radius: 4px 0px 0px 4px;
+  border-radius: 4px 0px 0px 4px;
+  height: 40px;
+  height: 40px;
+  min-width: 32px;
+  min-width: 32px;
+  line-height: 40px;
+  line-height: 40px;
+}
+
+.bettingpanel
+  .sidebar_betting.d-lg-none.d-block.open
+  .result_section_container {
+  background: #bcd4f1;
+}
+
+.bettingpanel
+  .sidebar_betting.d-lg-none.d-block.open
+  .result_section_container_betting {
+  background: #bcd4f1;
 }
 
 .bettingpanel_game_select .betting_main_table .well input {
@@ -1203,6 +1309,16 @@ section#main-content {
 .bettingpanel_game_select .betting_main_table .underline_subtabs {
   text-decoration: underline;
   text-decoration-color: #114de7;
+}
+
+.div1 {
+  order: 1;
+}
+.div2 {
+  order: 3;
+}
+.div3 {
+  order: 2;
 }
 
 /* media query start */
@@ -1286,11 +1402,9 @@ section#main-content {
   .widget-body form {
     overflow: scroll;
   }
-
   .bettingpanel_game_select h4 {
     font-size: 12px;
   }
-
   .bettingpanel_game_select table th,
   .bettingpanel_game_select table td {
     font-size: 12px;
@@ -1317,7 +1431,7 @@ section#main-content {
   height: 24px;
   padding: 2px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: #bcd4f1;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -1335,7 +1449,6 @@ section#main-content {
 
 .sideMenu li.nav-item {
   max-width: -webkit-fill-available;
-  margin: 5px 0px;
 }
 
 .sideMenu .nav-item ul {
@@ -1469,11 +1582,9 @@ section#main-content {
   margin: 0.5rem;
   margin-bottom: 1rem;
 }
-
 .sideMenu .card {
   background-color: #bcd4f1;
 }
-
 .sideMenu .card .card-header {
   border: none;
   background-color: inherit;
@@ -1497,11 +1608,6 @@ section#main-content {
 .sideMenu .button-group .navbar-nav button {
   width: 49%;
 }
-#header-nav .navbar-nav .btn_space {
-  display: flex;
-  gap: 20px;
-}
-
 @media (min-width: 1920px) and (max-width: 2560px) {
   .sideMenu {
     box-sizing: border-box;
@@ -1608,7 +1714,7 @@ section#main-content {
   }
 
   .sideMenu .size-24 {
-    background-color: #bcd4f1;
+    background-color: #fff;
   }
 
   nav#header-nav .navbar-nav button {
@@ -1783,7 +1889,6 @@ section#main-content {
 .helppage_main {
   margin: 40px auto;
 }
-
 .helppage_main .referral_head {
   display: flex;
   justify-content: space-between;
@@ -1796,13 +1901,11 @@ section#main-content {
   width: 100%;
   gap: 10px;
 }
-
 .helppage_main .referral_head a {
   font-size: 16px;
   text-decoration: none;
   margin: 0 auto;
 }
-
 .helppage_main .referral_head button {
   background-color: #fff;
   color: #114de7;
@@ -2058,7 +2161,6 @@ section#main-content {
   .helppage_main .referral_head a {
     font-size: 10px;
   }
-
   .helppage_main .referral_head {
     flex-direction: column;
     align-items: flex-start;
@@ -2069,7 +2171,6 @@ section#main-content {
     gap: 5px;
     margin: 0px 0px 15px 0px;
   }
-
   .helppage_main {
     margin: 20px auto;
   }
@@ -2187,7 +2288,6 @@ section#main-content {
   .king3 {
     height: unset;
   }
-
   .helppage_main .referral_head button {
     font-size: 11px;
   }
@@ -2518,7 +2618,6 @@ section#main-content {
   border-radius: 10px;
   border: none;
 }
-
 .new_pin_content .new_body_pin .bg-pin .pin_creation {
   background: #114de7;
   padding: 8px 30px !important;
@@ -2529,7 +2628,6 @@ section#main-content {
   border: none;
   color: #fff;
 }
-
 .new_pin_content .new_body_pin .bg-pin .pin_creation {
   background: #114de7;
   padding: 8px 30px !important;
@@ -2615,10 +2713,9 @@ section#main-content {
 .new_pin_content .new_body_pin .bg-pin {
   background-color: #e9edf5;
   padding: 10px;
-  margin: 10px;
+  margin: 0px;
   border-radius: 10px;
 }
-
 .new_pin_content .new_body_pin .bg-pin .first_pin {
   position: relative;
   display: flex;
@@ -2627,7 +2724,6 @@ section#main-content {
   align-items: center;
   gap: 30px;
 }
-
 .new_pin_content .new_body_pin .bg-pin .first_pin .input-container {
   position: relative;
 }
@@ -2651,7 +2747,6 @@ section#main-content {
 
 .new_pin_content .new_bg_pin {
   background-color: #fff;
-  padding: 5px;
 }
 
 .new_pin_content .terms_conditions .tc-ol li {
@@ -2681,22 +2776,18 @@ section#main-content {
 .new_pin_content .new_body_pin .keypad-trigger {
   border: none;
   position: absolute;
-  top: 74%;
-  right: 51%;
-  width: 50px;
-  height: 50px;
+  right: 2%;
+  width: 32px;
+  height: 32px;
   background-size: cover;
   z-index: 23;
 }
-
 .new_pin_content .new_body_pin .pin1 {
   background: url(../assets/icons/eva_keypad-fill.png) no-repeat right top;
 }
-
 .input-container-validation {
   position: relative;
 }
-
 .input-container-validation button {
   position: absolute;
   right: 5px;
@@ -2707,9 +2798,35 @@ section#main-content {
   height: 30px;
 }
 
+.new_pin_content .new_bg_pin .new_bg_pin_form_2 .new-form-group-form-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.new_pin_content
+  .new_bg_pin
+  .new_bg_pin_form_2
+  .new-form-group-form-2
+  .form-2-box {
+  display: flex;
+  height: 40px;
+}
 @media (max-width: 768px) {
   .new_pin_content .new_panel_body .security-card {
     width: 100% !important;
+  }
+  .new_pin_content
+    .new_bg_pin
+    .new_bg_pin_form_2
+    .new-form-group-form-2
+    .form-2-box {
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -2719,44 +2836,34 @@ section#main-content {
     margin: 0 auto;
     font-size: 16px;
   }
-
   .new_pin_content .new_body_pin .bg-pin .first_pin .input-container input {
     padding: 10px;
   }
-
   .new_pin_content .new_body_pin .bg-pin .first_pin {
     flex-direction: column;
     margin: 15px 0px;
     gap: 10px;
   }
-
   .new_pin_content .new_body_pin .bg-pin .pin_creation {
     /* width: 20%; */
     margin: 0 auto;
     font-size: 16px;
   }
-
   .new_pin_content .new_body_pin .bg-pin .first_pin .input-container input {
     padding: 10px;
   }
-
   .new_pin_content .new_body_pin .bg-pin .first_pin {
     flex-direction: column;
     margin: 15px 0px;
     gap: 10px;
   }
-
   .new_pin_content .modal.show .modal-dialog {
     transform: none;
-    max-width: 80vw !important;
+    max-width: 100vw !important;
   }
 
   .new_pin_content .new_pin_header {
     padding: 10px 5px;
-  }
-
-  .new_pin_content .new_body_pin .pincheck {
-    font-size: 24px;
   }
 
   .new_pin_content .new_pin_content {
@@ -2785,6 +2892,10 @@ section#main-content {
     padding: 20px;
   }
 
+  .new_pin_content .form-group * {
+    margin: 6px 15px;
+    padding: 6px;
+  }
   .new_pin_content .no-pad {
     display: flex;
   }
@@ -2806,7 +2917,7 @@ section#main-content {
   } */
   .new_pin_content .new_panel_body,
   .new_bg_pin {
-    font-size: 24px;
+    font-size: 14px;
   }
 
   .new_pin_content .new_pin_title,
@@ -2814,39 +2925,8 @@ section#main-content {
     font-size: 18px;
   }
 
-  .new_pin_content .new_body_pin .bg-pin .blue-i font {
-    font-size: 24px;
-  }
-
-  .new_pin_content .new_body_pin .bg-pin .submit_pin,
-  .new_pin_content .new_body_pin .bg-pin .submit_pin_logout {
-    font-size: 24px;
-  }
-
-  .new_pin_content .new_body_pin .bg-pin label {
-    font-size: 24px;
-  }
-
-  .new_pin_content .new_panel_body .terms_conditions label,
-  .new_pin_content .new_panel_body .terms_conditions input,
-  .new_pin_content .new_panel_body .terms_conditions .button {
-    font-size: 24px;
-  }
-
   .new_pin_content .new_pin_content .pin_p {
-    font-size: 24px;
     text-align: start !important;
-  }
-
-  .new_pin_content .new_body_pin .keypad-trigger {
-    border: none;
-    position: absolute;
-    top: 74%;
-    right: 8%;
-    width: 50px;
-    height: 50px;
-    background-size: cover;
-    z-index: 23;
   }
 
   .new_pin_content .new_panel_body .pin-italic {
@@ -3115,7 +3195,6 @@ section#main-content {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-
 .resultpage_container
   .resultpage_header
   .result_table
@@ -3125,7 +3204,6 @@ section#main-content {
   width: 200px;
   text-align: start;
 }
-
 .resultpage_container
   .resultpage_header
   .result_table
@@ -3152,7 +3230,6 @@ section#main-content {
   background-color: #e9edf5;
   padding: 6px;
 }
-
 .result_pagination .page-link:focus {
   box-shadow: none;
 }
@@ -3166,7 +3243,6 @@ section#main-content {
   color: #114de7;
   margin-right: 20px;
 }
-
 .year_result1 {
   text-align: center;
   margin: 10px 0px;
@@ -3207,12 +3283,10 @@ section#main-content {
   .result_pagination {
     padding: 5px 5px 0px 5px;
   }
-
   .result_pagination span,
   .year_result1 span {
     font-size: 12px;
   }
-
   .result_pagination .page-link {
     font-size: 11px;
   }
@@ -3357,19 +3431,16 @@ section#main-content {
   transition: 0.15s ease-in;
   width: 95%;
   max-width: 248px;
-
   &:hover,
   &:focus-within {
     box-shadow: 0 0 0 2px #16c79a, 0 10px 60px 0 rgba(#000, 0.1);
     transform: translatey(-5px);
   }
 }
-
 .gamelist_container .games-card-image {
   border-radius: 6px;
   overflow: hidden;
 }
-
 .gamelist_container .games-card-image img {
   max-width: 100%;
   display: block;
@@ -3377,14 +3448,12 @@ section#main-content {
 
 .gamelist_container .games-card-header {
   text-align: center;
-
   a {
     font-weight: 600;
     font-size: 14px;
     text-decoration: none;
     color: inherit;
     will-change: transform;
-
     &:after {
       content: "";
       position: absolute;
@@ -3395,13 +3464,11 @@ section#main-content {
     }
   }
 }
-
 .gamelist_container .games-card-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
 }
-
 .gamelist {
   display: flex;
   justify-content: space-between;
@@ -3414,7 +3481,6 @@ section#main-content {
   align-items: flex-end;
   gap: 5px;
 }
-
 .gamelist .gamelist-filter div {
   width: fit-content;
   border-radius: 6px;
@@ -3439,15 +3505,12 @@ section#main-content {
   border: none !important;
   font-size: 14px;
 }
-
 .gamelist.input-group {
   border-radius: 6px;
 }
-
 .gamelist .input-group .input-group-append .btn {
   border: none !important;
 }
-
 .gamelist .input-text:focus {
   box-shadow: 0px 0px 0px;
   border-color: #e9edf5;
@@ -3459,11 +3522,9 @@ section#main-content {
   .gamelist_container .games-card-list {
     grid-template-columns: repeat(2, 1fr);
   }
-
   .gamelist_container .games-card {
     margin-bottom: 5px;
   }
-
   .gamelist {
     flex-direction: column;
     margin-bottom: 10px;
@@ -3476,33 +3537,27 @@ section#main-content {
     height: 36px;
     align-items: center;
   }
-
   .gamelist .gamelist-filter div button {
     font-size: inherit;
   }
-
   .gamelist .form-control {
     font-size: 14px !important;
   }
-
   .gamelist_container .truncate {
     overflow: hidden;
     white-space: nowrap;
     font-weight: 500;
   }
 }
-
 /* gamelist page css end  */
 
 /* transaction histroy  start*/
 .transactions_container .status-complete {
   color: #16b613 !important;
 }
-
 .transactions_container .status-incomplete {
   color: #d63741 !important;
 }
-
 .transactions_container .balance-text {
   color: #114de7 !important;
   font-size: 16px !important;
@@ -3513,23 +3568,19 @@ section#main-content {
 .transactions_container .all-transactions {
   font-size: 14px;
 }
-
 .transactions_container .truncate {
   overflow: hidden;
   white-space: nowrap;
   font-weight: 500;
 }
-
 .transactions_container .table,
 .transactions_container .table thead th,
 .transactions_container .table tbody td {
   border: none !important;
   border-bottom-width: 0;
 }
-
 .transactions_container .table .rounded-corners td:first-child {
-  border-top-left-radius: 4px;
-  /* Adjust the radius as needed */
+  border-top-left-radius: 4px; /* Adjust the radius as needed */
   border-bottom-left-radius: 4px;
 }
 
@@ -3545,7 +3596,6 @@ section#main-content {
     width: fit-content;
   }
 }
-
 /* transaction history end */
 
 /* button blue lightblue start*/
@@ -3557,7 +3607,6 @@ section#main-content {
   border: none;
   text-decoration: none;
 }
-
 .button-lightBlue,
 .button-lightBlue a {
   background-color: #e9edf5;
@@ -3565,7 +3614,6 @@ section#main-content {
   border: none;
   text-decoration: none;
 }
-
 .button-white,
 .button-white a {
   background-color: #fff;
@@ -3573,34 +3621,29 @@ section#main-content {
   border: none;
   text-decoration: none;
 }
-
 /* button blue lightblue end */
 
 /* Memo page start  */
 .memo-page-main {
   padding: 0;
 }
-
 .memo-page-main .memo-justify-1 {
   display: flex;
   justify-content: space-between;
   border-bottom: none;
   margin-bottom: 5px;
 }
-
 .memo-page-main .memo-justify {
   display: flex;
   justify-content: space-between;
   border-bottom: none;
 }
-
 .memo-outbox,
 .memo-inbox,
 .memo-write {
   border-radius: 6px;
   margin: 2px 6px;
 }
-
 .memo-write a span {
   background-color: rgb(17, 77, 231);
   color: rgb(255, 255, 255) !important;
@@ -3613,7 +3656,6 @@ section#main-content {
   border-radius: 6px;
   padding: 1rem 0.5rem 0.5rem;
 }
-
 .memo-page-container .resultpage_header {
   background-color: #fff;
   border-radius: 6px;
@@ -3621,21 +3663,18 @@ section#main-content {
 
 .memo-page-container .memo-page-header {
 }
-
 /* Memo page start  */
 
 .memo-page-main .memo-page-container {
   border-radius: 6px;
   background-color: #e9edf5 !important;
 }
-
 .memo-page-main .memo-justify-1 {
   display: flex;
   justify-content: space-between;
   border-bottom: none;
   padding: 10px;
 }
-
 .memo-page-main .inbox-tabs.nav-tabs > li.active:not(.open) > a,
 .memo-page-main .inbox-tabs.nav-tabs > li.active:not(.open) > a:hover,
 .memo-page-main .inbox-tabs.nav-tabs > li.active:not(.open) > a:focus {
@@ -3643,7 +3682,6 @@ section#main-content {
   box-shadow: none !important;
   color: inherit !important;
 }
-
 .memo-page-main .memo-justify-1 .memo-a,
 .memo-page-main .memo-justify-1 .memo-b {
   display: flex;
@@ -3651,11 +3689,9 @@ section#main-content {
   background-color: transparent;
   padding: 0 !important;
 }
-
 .memo-page-main .memo-justify-1 .memo-a {
   background-color: rgb(17, 77, 231);
 }
-
 .memo-page-main .memo-justify-1 .memo-inbox,
 .memo-page-main .memo-justify-1 .memo-outbox,
 .memo-page-main .memo-justify-1 .memo-write {
@@ -3680,27 +3716,22 @@ section#main-content {
   font-weight: 500 !important;
   color: #000 !important;
 }
-
 .memo-page-main .button-white {
   background-color: #fff;
   color: #000 !important;
   border: none;
   text-decoration: none;
 }
-
 .memo-page-main .sender {
   width: 190px;
 }
-
 .memo-page-main .message-item .time {
   width: 180px;
 }
-
 .message-container .form_inside {
   max-width: 700px;
   margin: 0 auto;
 }
-
 /* .message-container .form_inside .similar_flex{
    display: flex;
    gap:15px 
@@ -3718,10 +3749,8 @@ section#main-content {
   border: none;
   background-color: #fff;
 }
-
 .memo-form-field-sub {
 }
-
 /* --------------------------------------- */
 
 .promtion_div .promotion_content p {
@@ -3730,12 +3759,10 @@ section#main-content {
   color: #000;
   text-align: start;
 }
-
 .new-memo-write {
   background-color: #fff;
   color: #000;
 }
-
 .new-memo-write .memo-flex {
   display: flex;
   align-items: flex-start;
@@ -3744,29 +3771,24 @@ section#main-content {
   width: 90%;
   /* margin-top: 5px; */
 }
-
 .new-memo-write .memo-flex div {
   width: 80%;
 }
-
 .new-memo-write .memo-flex label,
 .new-memo-write .memo-start-flex label {
   width: 20%;
   margin-right: 10px;
 }
-
 .new-memo-write .memo-start-flex {
   display: flex;
   align-items: flex-start;
   justify-content: start;
   width: 90%;
 }
-
 .new-memo-write .memo-start-flex .memo-textarea,
 .new-memo-write .memo-start-flex .memo-attachments {
   width: 80%;
 }
-
 .new-memo-write .memo-flex .memo-subject input,
 .new-memo-write .memo-flex .memo-subject select,
 .new-memo-write .memo-flex .memo-to span,
@@ -3775,13 +3797,11 @@ section#main-content {
   width: 100%;
   border-radius: 6px !important;
 }
-
 .new-memo-write .memo-flex .memo-to {
   padding-top: 7px;
   border: 1px solid #ced4da;
   border-radius: 4px;
 }
-
 .new-memo-write .memo-textarea .ql-toolbar,
 .new-memo-write .textarea-editor,
 .new-memo-write
@@ -3792,7 +3812,6 @@ section#main-content {
   .ace-file-container {
   border-radius: 6px !important;
 }
-
 .new-memo-write .memo-attachments .memo-attachments-div .file-input-container,
 .new-memo-write
   .memo-attachments
@@ -3808,7 +3827,6 @@ section#main-content {
   width: 100% !important;
   margin: 0 !important;
 }
-
 .new-memo-write
   .memo-attachments
   .memo-attachments-div
@@ -3816,7 +3834,6 @@ section#main-content {
   .col-sm-7 {
   padding: 0 !important;
 }
-
 .new-memo-write
   .memo-attachments
   .memo-attachments-div
@@ -3831,7 +3848,6 @@ section#main-content {
   border: 2px solid #fff;
   border-radius: 4px;
 }
-
 .new-memo-write .memo-attachments .memo-attachments-div {
   display: flex;
   justify-content: space-between;
@@ -3841,22 +3857,18 @@ section#main-content {
   .memo-page-main .memo-text-body {
     font-size: 10px !important;
   }
-
   .new-memo-write .memo-flex,
   .new-memo-write .memo-start-flex {
     flex-direction: column;
   }
-
   .new-memo-write .memo-attachments .memo-attachments-div {
     /* flex-direction: column; */
     flex-wrap: wrap;
   }
-
   .new-memo-write .memo-attachments .memo-attachments-div span input {
     width: 98%;
     margin-bottom: 7px;
   }
-
   .new-memo-write .memo-attachments .memo-attachments-div {
     margin-bottom: 7px;
   }
@@ -3865,7 +3877,6 @@ section#main-content {
   .new-memo-write .memo-start-flex .memo-textarea {
     width: 100%;
   }
-
   .new-memo-write .memo-flex label,
   .new-memo-write .memo-start-flex label {
     width: 100%;
@@ -3875,29 +3886,23 @@ section#main-content {
   .memo-page-container .memo-justify-1 {
     padding: 0 !important;
   }
-
   .memo-page-container .memo-write {
     margin-left: 0 !important;
     margin: 2px 6px !important;
   }
-
   .new-message-toolbar #markasread button i {
     display: none;
   }
-
   .new-message-toolbar #markasread button span {
     font-size: 12px !important;
   }
-
   .new-message-toolbar #markasread button {
     padding: 5px 8px !important;
   }
-
   .memo-inbox-parent .message-navbar {
     display: flex !important;
     justify-content: flex-end !important;
   }
-
   .memo-inbox-parent .message-item .sender {
     width: 176px !important;
   }
@@ -3905,7 +3910,6 @@ section#main-content {
   .memo-inbox-parent .message-list .message-item .time {
     width: 140px;
   }
-
   .memo-inbox-parent .message-list .message-item .sender,
   .memo-inbox-parent .message-list .message-item .time,
   .memo-inbox-parent .message-list .message-item .summary {
@@ -3913,7 +3917,6 @@ section#main-content {
     font-weight: 500;
   }
 }
-
 /* ------------------------------------ */
 /* Memo page end */
 
@@ -3994,7 +3997,6 @@ section#main-content {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-
 .invoicepage_container
   .invoicepage_header
   .result_table
@@ -4004,7 +4006,6 @@ section#main-content {
   width: 200px;
   text-align: start;
 }
-
 .invoicepage_container
   .invoicepage_header
   .result_table
@@ -4031,16 +4032,13 @@ section#main-content {
   background-color: #fff;
   color: #000 !important;
 }
-
 .invoicepage_span {
   margin: 15px 10px 10px 0px;
 }
-
 .invoicepage_span label {
   font-size: 15px;
   font-weight: 600;
 }
-
 .invoicepage_span input {
   width: 30%;
   border-radius: 6px !important;
@@ -4050,19 +4048,15 @@ section#main-content {
   border: 1px solid;
   border-color: #bcd4f1;
 }
-
 .invoicepage_span form {
   text-align: end;
 }
-
 .invoicepage_header .total {
   font-weight: 500;
 }
-
 .invoicepage_header .result_table .table {
   margin-bottom: 0;
 }
-
 .invoice-total-games {
   display: flex;
   justify-content: space-around;
@@ -4075,7 +4069,6 @@ section#main-content {
   background-image: none;
   background: #fff;
 }
-
 /* market select dp */
 
 @media screen and (max-width: 540px) {
@@ -4113,12 +4106,10 @@ section#main-content {
   .invoice_pagination {
     padding: 5px 5px 0px 5px;
   }
-
   .invoice_pagination span,
   .year_result1 span {
     font-size: 12px;
   }
-
   .invoice_pagination .page-link {
     font-size: 11px;
   }
@@ -4126,12 +4117,10 @@ section#main-content {
   .invoicepage_container .invoice-div {
     flex-direction: column !important;
   }
-
   .invoicepage_container .period-change-div {
     display: inline-flex !important;
     align-items: center !important;
   }
-
   .period-change-div button {
     padding-left: 12px !important;
     padding-right: 12px !important;
@@ -4149,16 +4138,14 @@ section#main-content {
   font-size: 14px;
 }
 
-.pagination-link {
-  margin: 0 5px;
-}
-
 .pagination-link a {
+  margin: 0 5px;
+  cursor: pointer;
   color: #000;
   text-decoration: none;
 }
 
-.pagination-link:hover a {
+.pagination-link:hover {
   text-decoration: none;
   color: #000;
 }
